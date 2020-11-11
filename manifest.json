@@ -1,0 +1,10 @@
+{
+  "name": "Laatuhesari",
+  "version": "1.0",
+  "description": "Filtteröi tietyn sanan sisältävät artikkelit hesarin etusivulta",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "js": ["index.js"],
+    "matches": ["https://www.hs.fi/"]
+  }]
+}
