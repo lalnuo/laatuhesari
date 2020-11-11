@@ -1,8 +1,8 @@
 console.log("Laatuhesari käynnistetty");
 
-const forbiddenArticles = ["korona", "trump"];
-const elementHasCorona = (node) =>
-    forbiddenArticles.some(word => (node.textContent || "").toLowerCase().indexOf(word) > 0)
+const forbiddenKeywords = ["korona", "trump"];
+const elementContainsForbiddenKey = (node) =>
+    forbiddenKeywords.some(word => (node.textContent || "").toLowerCase().indexOf(word) > 0)
 
 
 const removeArticle = (domNode) => {
@@ -13,21 +13,21 @@ const removeArticle = (domNode) => {
     }
 };
 
-const checkForCorona = (domNode) => {
-    if (domNode && elementHasCorona(domNode)) {
+const checkForForbiddenKeywords = (domNode) => {
+    if (domNode && elementContainsForbiddenKey(domNode)) {
         removeArticle(domNode);
     }
     if (domNode && domNode.childNodes) {
         domNode.childNodes.forEach((x) => {
-            checkForCorona(x);
+            checkForForbiddenKeywords(x);
         });
     }
 };
 
 document.addEventListener("DOMNodeInserted", (event) => {
-    if (elementHasCorona(event.target)) {
-        checkForCorona(event.target);
+    if (elementContainsForbiddenKey(event.target)) {
+        checkForForbiddenKeywords(event.target);
     }
 });
 
-checkForCorona(document);
+checkForForbiddenKeywords(document);
