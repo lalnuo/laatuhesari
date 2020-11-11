@@ -12,3 +12,5 @@ Joskus tietyn aihepiirin uutiset kyllästyttää. Tällä chrome extensionilla n
 ### Muuta
 
 Pluginin toteutukseen on käytetty noin 30 minuuttia. Käyttö omalla vastuulla
+
+![Works for sure](https://blog.codinghorror.com/content/images/uploads/2007/03/6a0120a85dcdae970b0128776ff992970c-pi.png)
