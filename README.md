@@ -1,6 +1,6 @@
 # laatuhesari
 
-Joskus tietyn aihepiirin uutiset kyllästyttää. Tällä chrome extensionilla niistä pääsee hetkellisesti eroon. Defaulttina lisäosa kadottaa trump- ja korona-aiheiset uutiset. Avainsanoja voi kuitenkin säätää [täältä](https://github.com/lalnuo/laatuhesari/blob/master/index.js#L3). Toistaiseksi uutiset katoavat vain hesarin etusivulta.
+Joskus tietyn aihepiirin uutiset kyllästyttää. Tällä chrome extensionilla niistä pääsee hetkellisesti eroon. **Defaulttina lisäosa kadottaa trump- ja korona-aiheiset uutiset**. Avainsanoja voi kuitenkin säätää [täältä](https://github.com/lalnuo/laatuhesari/blob/master/index.js#L3). Toistaiseksi uutiset katoavat vain hesarin etusivulta.
 
 ### Asennus
 
