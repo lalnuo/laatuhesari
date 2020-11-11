@@ -9,3 +9,6 @@ Joskus tietyn aihepiirin uutiset kyllästyttää. Tällä chrome extensionilla n
 3. Avaa chrome://extensions ja drag and droppaa hakemisto selaimeen
 
 
+### Muuta
+
+Pluginin toteutukseen on käytetty noin 30 minuuttia. Käyttö omalla vastuulla
