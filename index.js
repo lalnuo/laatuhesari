@@ -2,7 +2,7 @@ console.log("Laatuhesari käynnistetty");
 
 const forbiddenKeywords = ["korona", "trump"];
 const elementContainsForbiddenKey = (node) =>
-    forbiddenKeywords.some(word => (node.textContent || "").toLowerCase().indexOf(word) > 0)
+    forbiddenKeywords.some(word => (node.textContent || "").toLowerCase().indexOf(word) !== -1)
 
 
 const removeArticle = (domNode) => {
