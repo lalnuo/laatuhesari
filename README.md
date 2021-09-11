@@ -5,7 +5,7 @@ Joskus tietyn aihepiirin uutiset kyllästyttää. Tällä chrome extensionilla n
 ### Asennus
 
 1. Lataa [laatuhesari.zip](https://github.com/lalnuo/laatuhesari/releases/download/0.01/laatuhesari.zip)
-2. Unzippaa tiedosto
+2. Pura tiedosto
 3. Avaa selaimella osoite [chrome://extensions](chrome://extensions) ja drag and droppaa hakemisto selaimeen
 
 
